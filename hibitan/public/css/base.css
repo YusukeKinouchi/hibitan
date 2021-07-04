@@ -1,0 +1,249 @@
+.frame{
+    margin:10px;
+}
+
+.titleArea{
+    border: 3px solid;
+    border-radius: 10px;
+    border-color:black;
+}
+
+.title{
+    text-align: center;
+    margin:10px 0;
+}
+
+.titleArea h1{
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+}
+
+.titleArea button{
+    background-color: rgb(115, 172, 197);
+    color:#fff;
+    border-radius: 10px;
+}
+
+.titleTop{
+    display: flex;
+}
+
+.titleLeft{
+    margin:5px auto 0 1%;
+}
+
+.titleLeft button{
+    width:100px;
+    height:50px;
+}
+
+.titleRight{
+    margin:5px 1% 0 auto;
+    display: inline;
+}
+
+.titleRight button{
+    display: block;
+    margin-bottom: 5px;
+    width:100px;
+    height:25px;
+}
+
+.joinTeam{
+    text-align: center;
+    margin-bottom:10px;
+}
+
+.titleBottom button{
+    margin:0 40%;
+}
+
+.box{
+    margin:0 10%;
+}
+
+.buttonToCenter{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.linkToCenter{
+    text-align: center;
+}
+
+.dropList{
+    margin-left: 10%;
+}
+
+.explain{
+    margin:40px 10%;
+    border:1px solid;
+    border-radius: 10px;
+}
+
+.explain p{
+    text-align: center;
+}
+
+.header{
+    background-color: rgb(179, 158, 158);
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.header a{
+    color:white;
+}
+
+.header-left{
+    margin-left:5%;
+}
+
+.header-right{
+    margin-left:auto;
+    margin-right:5%;
+}
+
+.postContent{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    border-bottom: 1px solid;
+    border-color: rgb(158, 176, 179);
+}
+
+.name-edit-delete{
+    display: flex;
+}
+
+.name-edit-delete a{
+    margin-right:3%;
+}
+
+.studyContentTitle{
+    margin-bottom: 0;
+}
+
+.studyContent p{
+    margin-top: 0;
+}
+
+.studyDetail{
+    width:90%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.favorite{
+    display: flex;
+}
+
+.favorite p{
+    font-size: 20px;
+}
+
+.favoriteStar{
+    margin-left: 90%;
+}
+
+input{
+    width:70%;
+}
+
+textarea{
+    width: 70%;
+    height:100px;
+}
+
+#studyInformation p,textarea{
+    vertical-align: top;
+}
+
+.date{
+    width:auto;
+}
+
+.operation-top{
+    margin-top:100px;
+}
+
+.operation{
+    margin-top:50px;
+}
+
+.settingCondition{
+    margin:50px 10%;   
+}
+
+.settingCondition p{
+    text-align: center;   
+}
+
+.aboutTeam{
+    margin-top:20px;
+}
+
+.authority{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.error{
+    color:red;
+}
+
+.favoriteContent{
+    display: flex;
+    align-items: flex-end;
+    margin-left:40%;
+}
+
+.favoriteContent button{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.favoriteContent p{
+    margin: 0;
+    margin-bottom:5px;
+}
+
+.favoriteBtn{
+    font-size:20px;
+}
+
+#page_top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: #3f98ef;
+    opacity: 0.6;
+    border-radius: 50%;
+}
+
+#page_top a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+#page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f102';
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -5px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}

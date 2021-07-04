@@ -1,0 +1,23 @@
+#levelFilter{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+}
+
+#levelFilter p{
+    margin:0 1%;
+}
+
+#levelFilter select{
+    height:25px;
+}
+
+#levelFilter button{   
+    height:25px;
+}
+
+#teamDetail{
+    width:90%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
