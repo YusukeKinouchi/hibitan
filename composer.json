@@ -1,6 +1,0 @@
-{
-    "require-dev": {
-        "phpunit/phpunit": "^9.0",
-        "kornrunner/dbunit": "^6.0"
-    }
-}
